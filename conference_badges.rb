@@ -11,7 +11,7 @@ end
 #assigning each speaker to one room
 def assign_rooms(attendees)
   #this started the room number out to bt 0
-  counter = 0 
+  counter = 0
   attendees.each_with_index.collect {|speaker,room| puts "Hello, #{speaker}! You'll be assigned to room #{room}"}
   counter += 1
       #this will add on number to the room until the speakers each have one
