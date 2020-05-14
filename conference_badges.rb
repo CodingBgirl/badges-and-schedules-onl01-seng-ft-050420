@@ -10,8 +10,7 @@ end
 
 #assigning each speaker to one room
 def assign_rooms(attendees)
-  room += 1
-  attendees.each_with_index.collect {|speaker,room| "Hello, #{speaker}! You'll be assigned to room #{room}!"}
+  attendees.each_with_index.collect {|speaker,room| "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"}
       #this will add on number to the room until the speakers each have one
 end
 def printer(attendees)
