@@ -11,7 +11,7 @@ end
 #assigning each speaker to one room
 def assign_rooms(attendees_lineup)
   #this started the room number out to bt 0
-  counter = 0
+  counter = 1
   attendees_lineup.each_with_index.collect {|speaker,room_assignments| "Hello, #{speaker}! You'll be assigned to room #{room_assignments}"}
       #this will add on number to the room until the speakers each have one
 end
