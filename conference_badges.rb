@@ -12,7 +12,6 @@ end
 def assign_rooms(attendees)
   #this started the room number out to bt 0
       #this will add on number to the room until the speakers each have one
-  end
 end
 def printer(attendees)
 
